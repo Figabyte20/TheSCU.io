@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The SCU | Contact</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact The SCU</h1>
+        <p class="tagline">Questions, concerns, bugs, or feedback? Send a message.</p>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="content-box">
+            <h2>Send Us a Message</h2>
+
+            <div class="text-window">
+                <p>
+                    Use this page to report bugs, ask questions, share concerns, or send general feedback
+                    about The SCU.
+                </p>
+
+                <p>
+                    You can also email directly at:
+                    <a href="mailto:figabyte2.0@gmail.com">figabyte2.0@gmail.com</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-box">
+            <h2>Contact Form</h2>
+
+            <form action="mailto:figabyte2.0@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="Name" placeholder="Enter your name">
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="Email" placeholder="Enter your email">
+
+                <label for="topic">Message Type:</label>
+                <select id="topic" name="Message Type">
+                    <option value="Question">Question</option>
+                    <option value="Concern">Concern</option>
+                    <option value="Bug Report">Bug Report</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="Message" rows="8" placeholder="Write your message here"></textarea>
+
+                <button type="submit">Send Email</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SCU. All rights reserved.</p>
+    </footer>
+</body>
+</html>
